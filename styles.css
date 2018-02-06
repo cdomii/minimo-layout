@@ -1,0 +1,80 @@
+.navlayout {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 10;
+	grid-auto-rows: 80px; 
+	grid-auto-columns: 200px;
+
+}
+
+.name {
+	display: grid;
+	grid-column-start: 2;
+	grid-column-end: 8;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	font-family: Ubuntu;
+	font-weight: 2px;
+	font-size: 30px;
+	margin-top: 40px;
+}
+
+.mainimage {
+	grid-column-start: 2;
+	grid-column-end: 8;
+	grid-row-start: 3;
+
+}
+
+nav {
+	grid-column-start: 4;
+	grid-column-end: 8;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	font-family: Playfair Display;
+	text-transform: uppercase;
+	font-size: 12pt;
+	word-spacing: 121px;
+	margin-top: 48px;
+}
+
+a {
+	text-decoration: none;
+	color: #626262;
+}
+/* dodać hovery później */
+
+.layout {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 14;
+	grid-auto-rows: 100px; 
+	grid-auto-columns: 100px;
+}
+
+h1 {
+	font-family: Playfair Display;
+	color: #626262;
+}
+
+.mainarticle {
+	grid-column-start: 4;
+	grid-column-end: 12;
+	grid-row-start: 7;
+	grid-row-end: 7;
+	font-family: Playfair Display;
+	font-size: 10pt;
+	color: #626262;
+}
+
+.littletext {
+	grid-column-start: 4;
+	grid-column-end: 12;
+	grid-row-start: 7;
+	grid-row-end: 7;
+	color: #b4ad9e;
+	font-family: Ubuntu;
+	text-transform: uppercase;
+	font-size: 9pt;
+	margin-top: -10px;
+}

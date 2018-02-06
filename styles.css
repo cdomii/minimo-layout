@@ -17,6 +17,7 @@
 	font-weight: 2px;
 	font-size: 30px;
 	margin-top: 40px;
+	letter-spacing: 2px;
 }
 
 .mainimage {
@@ -33,8 +34,8 @@ nav {
 	grid-row-end: 1;
 	font-family: Playfair Display;
 	text-transform: uppercase;
-	font-size: 12pt;
-	word-spacing: 121px;
+	font-size: 11pt;
+	word-spacing: 128px;
 	margin-top: 48px;
 }
 
@@ -47,34 +48,46 @@ a {
 .layout {
 	display: grid;
 	grid-template-rows: auto;
-	grid-template-columns: 14;
-	grid-auto-rows: 100px; 
-	grid-auto-columns: 100px;
+	grid-template-columns: 16;
+	grid-auto-rows: 90px; 
+	grid-auto-columns: 84px;
 }
 
-h1 {
+.head {
 	font-family: Playfair Display;
 	color: #626262;
+	font-weight: normal;
+	font-size: 20pt;
 }
 
 .mainarticle {
 	grid-column-start: 4;
-	grid-column-end: 12;
-	grid-row-start: 7;
-	grid-row-end: 7;
+	grid-column-end: 15;
+	grid-row-start: 8;
+	grid-row-end: 8;
 	font-family: Playfair Display;
 	font-size: 10pt;
 	color: #626262;
 }
 
 .littletext {
-	grid-column-start: 4;
-	grid-column-end: 12;
-	grid-row-start: 7;
-	grid-row-end: 7;
 	color: #b4ad9e;
 	font-family: Ubuntu;
 	text-transform: uppercase;
 	font-size: 9pt;
-	margin-top: -10px;
+	margin-top: 20px;
+}
+
+.article1 {
+	grid-column-start: 4;
+	grid-column-end: 9;
+	grid-row-start: 13;
+	grid-row-end: 13;
+}
+
+.article2 {
+	grid-column-start: 10;
+	grid-column-end: 15;
+	grid-row-start: 13;
+	grid-row-end: 13;
 }

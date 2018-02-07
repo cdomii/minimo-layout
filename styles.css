@@ -51,6 +51,7 @@ a {
 	grid-template-columns: 16;
 	grid-auto-rows: 90px; 
 	grid-auto-columns: 84px;
+
 }
 
 .head {
@@ -90,4 +91,51 @@ a {
 	grid-column-end: 15;
 	grid-row-start: 13;
 	grid-row-end: 13;
+
+}
+
+.break {
+	margin-top: 80px;
+}
+
+body {
+	 overflow-x: hidden;
+}
+
+.singup {
+	grid-column-start: 7;
+	grid-column-end: 12;
+	grid-row-start: 25;
+	grid-row-end: 26;
+	background-color: #f0f0f0;
+	height: 287px;
+	margin: 0px -2000px;
+    padding: 0px 2000px;
+}
+
+.sign {
+	font-family: Playfair Display;
+	font-size: 20pt;
+	color: #626262;
+	margin-left: 55px;
+}
+
+input[type="text"] {
+	font-family: Playfair Display;
+	font-size: 11pt;
+	margin-left: 47px;
+	outline: none;
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	border-bottom: 1px solid #626262;
+	background: none;
+	width: 350px;
+	height: 30px;
+}
+
+.arrow {
+	margin-bottom: 20px;
+	margin-top: -34px;
+	margin-left: 358px;
 }
